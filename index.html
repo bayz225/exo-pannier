@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pannier</title>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="./src/style/style.css">
+    </head>
+    <body>
+        <div class="panier">
+            <h2>MOM PANIER</h2>
+            <div class="page">
+                <section id="shop">
+                    <div class="container">
+                        <div class="item-list">
+                            <div class="item">
+                                <div class="image-container">
+                                    <img src="./src/image/images-1.jpeg">
+                                </div>
+                                <div class="card-description">
+                                    <div id="title">
+                                        <h3 class="title">Chaussure 1</h3>
+                                        <i id="like" class="uil uil-heart-alt"></i>
+                                    </div>
+                                    <p class="description">Belle paire de soulier de couleur noir</p>
+                                    <p id="price">
+                                        <span class="price">59000</span>f
+                                    </p>
+                                    <div class="footer">
+                                        <div class="quantity">
+                                            <button id="down">-</button>
+                                            <div id="quantity">1</div>
+                                            <button id="up">+</button>
+                                        </div>
+                                        <i id="trash" class="uil uil-trash-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="image-container">
+                                    <img src="./src/image/images-2.jpeg">
+                                </div>
+                                <div class="card-description">
+                                    <div id="title">
+                                        <h3 class="title">Chaussure 2</h3>
+                                        <i id="like" class="uil uil-heart-alt"></i>
+                                    </div>
+                                    <p class="description">Belle paire de baladeuse</p>
+                                    <p id="price">
+                                        <span class="price">14500</span>f
+                                    </p>
+                                    <div class="footer">
+                                        <div class="quantity">
+                                            <button id="down">-</button>
+                                            <div id="quantity">1</div>
+                                            <button id="up">+</button>
+                                        </div>
+                                        <i id="trash" class="uil uil-trash-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="image-container">
+                                    <img src="./src/image/images-3.jpeg">
+                                </div>
+                                <div class="card-description">
+                                    <div id="title">
+                                        <h3 class="title">Chaussure 3</h3>
+                                        <i id="like" class="uil uil-heart-alt"></i>
+                                    </div>
+                                    <p class="description">Belle paire pour les cérémonies</p>
+                                    <p id="price">
+                                        <span class="price">37900</span>f
+                                    </p>
+                                    <div class="footer">
+                                        <div class="quantity">
+                                            <button id="down">-</button>
+                                            <div id="quantity">1</div>
+                                            <button id="up">+</button>
+                                        </div>
+                                        <i id="trash" class="uil uil-trash-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty">
+                            <p>Aucun article</p>
+                        </div>
+                    </div>
+                </section>
+        
+                <section id="shopping-cart">
+                    <div class="container">
+                        <div>
+                            TOTAL: <span id="total"></span>FCFA
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="./src/main.js"></script>
+    </body>
+</html>
